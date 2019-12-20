@@ -25,7 +25,7 @@ public class LockTest implements Runnable {
                         System.out.println(Thread.currentThread().getName() + "打印了：" + i1);
                         i++;
                     }
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                 } finally {
                     lock.unlock();
                 }
